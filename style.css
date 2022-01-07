@@ -6,5 +6,18 @@ a:visited {
   font-size: larger;
 }
 .name:focus {
+  color: yellow;
+}
+input[type="email"]:focus {
   color: red;
+  border: none !important;
+}
+ul li:nth-child(2n) {
+  color: burlywood;
+}
+ul li:first-child {
+  text-decoration: line-through;
+}
+li:nth-child(2n + 1) {
+  color: tomato;
 }
